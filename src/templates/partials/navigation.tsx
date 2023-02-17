@@ -15,7 +15,7 @@ export const navigation: Template<JSX.Element> = (context, page) => {
             <div class="sidebar-elems">
                 <div class="block">
                     <ul>
-                        <li class="version">Version {project.packageInfo.version}</li>
+                        <li class="version">Version {project?.packageInfo?.version}</li>
                         <li style="margin-top: 0.7rem">
                             <a href={context.urlTo(model.project)}>Exports</a>
                         </li>
